@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import { FiAlignJustify } from 'react-icons/fi';
+import Footer from './footer/Footer';
 
 interface LayoutProps {
     children: ReactNode;
@@ -13,9 +14,7 @@ const Layout = ({ children }: LayoutProps) => {
         size={34}/>
         </nav>
       <main>{children}</main>
-      <footer>
-        <p>&copy; 2023 My App</p>
-      </footer>
+      <Footer />
     </div>
   );
 };

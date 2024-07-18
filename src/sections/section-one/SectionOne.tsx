@@ -16,10 +16,12 @@ const SectionOne = () => {
           <div className="foreground">
             <img src={cloudsForeground} alt="Foreground Image" />
           </div>
-          <div className="title">Hello, from Rashida's world</div>
+          <div className="title">Hello, <span>[Rashida's]</span> world</div>
           </header>
         </div>
-        <FiChevronsDown size={32} />
+        <div className="chevrons-down-container">
+            <FiChevronsDown size={60} />
+          </div>
       </div>
     </>
   );

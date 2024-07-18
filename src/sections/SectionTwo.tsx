@@ -1,7 +1,17 @@
 
+
 const SectionTwo = () => {
+
+
   return (
-    <div>SectionTwo</div>
+    <>
+    <div className="page-section">
+      <div className="scroll-piece">
+      <div>Section Two</div>
+      </div>
+    </div>
+    </>
+
   )
 }
 

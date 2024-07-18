@@ -1,5 +1,6 @@
+
 #root {
-  max-width: 1280px;
+  padding: 0 auto;
   margin: 0 auto;
   overflow-x: hidden;
   background-color: black;
@@ -10,3 +11,4 @@
   width: 100vw;
   height: 100vh;
 }
+

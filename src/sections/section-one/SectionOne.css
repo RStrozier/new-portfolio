@@ -1,8 +1,24 @@
 .title {
-    font-size: 5rem;
+    font-size: 4rem;
     color: white;
     text-shadow:  0 0 20px rgb(11, 215, 45);
     background-color: transparent;
+}
+
+.title span {
+  animation: slideDown 2s ease-in-out forwards;
+  text-shadow:  0 0 20px rgb(59, 11, 215);
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 header {
@@ -36,11 +52,32 @@ header {
 section {
     margin: 0 auto;
     padding: 0 auto;
+    overflow-x: hidden;
 }
 
 .parallax-container {
-    height: 60vh;
+    height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
 }
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.35);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .chevrons-down-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: pulse 2s infinite;
+  }
