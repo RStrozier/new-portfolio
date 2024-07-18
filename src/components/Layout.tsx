@@ -8,12 +8,10 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div>
-      <header>
         <nav>
         <FiAlignJustify 
-        size={32}/>
+        size={34}/>
         </nav>
-      </header>
       <main>{children}</main>
       <footer>
         <p>&copy; 2023 My App</p>
