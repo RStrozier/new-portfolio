@@ -1,0 +1,43 @@
+.sub-title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+@keyframes slide-in-left {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .scroll-piece-left.slide-in-left {
+    animation: slide-in-left 1.25s ease-out forwards;
+  }
+  
+  .scroll-piece-right.slide-in-right {
+    animation: slide-in-right 1.75s .1s ease-out forwards;
+  }
+
+  .about-me-text {
+    margin: 0 80px;
+    font-size: 1.2rem;
+  }
+
+  .signature-text {
+    text-align: end;
+  }

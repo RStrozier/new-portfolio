@@ -12,3 +12,15 @@
   height: 100vh;
 }
 
+.spacer {
+  padding: 3rem 0;
+}
+
+.mini-spacer {
+  padding: 1rem 0;
+}
+
+.mediumContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
