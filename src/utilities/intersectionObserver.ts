@@ -7,13 +7,13 @@ export function setupIntersectionObserver() {
     const observerOptionsLeft: IntersectionObserverInit = {
       root: null, // Use the viewport as the root
       rootMargin: '0px', // No additional margin
-      threshold: 0.15 // Trigger when 50% of the element is in view
+      threshold: 0.15 // Trigger when 15% of the element is in view
     };
   
     const observerOptionsRight: IntersectionObserverInit = {
       root: null, // Use the viewport as the root
       rootMargin: '0px', // No additional margin
-      threshold: 0.15 // Trigger when 50% of the element is in view
+      threshold: 0.15 // Trigger when 15% of the element is in view
     };
   
     // Create the Intersection Observer for left-sliding elements

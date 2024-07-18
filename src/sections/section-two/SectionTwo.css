@@ -8,8 +8,9 @@
 }
 
 .sub-title {
-    text-align: center;
-    font-size: 4.5rem;
+  text-align: center;
+  font-size: 4.5rem;
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.5), 0 0 80px rgba(255, 215, 0, 0.25);
 }
 
 @keyframes slide-in-left {
@@ -47,7 +48,7 @@
     font-size: 1.2rem;
     padding: .25rem;
     border-radius: 8px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #535116, 1px -1px 0 #535116, -1px 1px 0 #535116, 1px 1px 0 #535116;
     text-align: center;
   }
 
