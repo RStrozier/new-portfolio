@@ -6,7 +6,7 @@ import cloudsForeground from "../../assets/clouds-foreground.jpg";
 const SectionOne = () => {
   return (
     <>
-      <div className="page-section section-one">
+      <div className="page-section">
         <div className="parallax-container">
           <header>
             <div className="background">

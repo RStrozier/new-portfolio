@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './App.css'
+import './assets/css/fonts.css'
 import AppRouter from './routes/AppRouter'
 import { setupIntersectionObserver } from './utilities/intersectionObserver';
 
