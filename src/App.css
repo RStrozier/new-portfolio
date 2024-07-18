@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: black;
+  color: azure;
+}
+
+.section {
+  width: 95vw;
+  height: 99vh;
+}
