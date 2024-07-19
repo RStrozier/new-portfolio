@@ -1,3 +1,5 @@
+import "./SectionThree.css"
+
 const SectionThree = () => {
   return (
     <>

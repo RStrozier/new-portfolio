@@ -7,6 +7,7 @@ const SectionTwo = () => {
         <div className="scroll-piece-left">
           <div className="mini-spacer"></div>
           <div className="sub-title bona-nova-sc-regular">Who Am I?</div>
+          <div className="golden-header"></div>
         </div>
 
         <div className="mini-spacer"></div>
