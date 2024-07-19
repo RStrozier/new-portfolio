@@ -1,7 +1,7 @@
 import { FiChevronsDown } from "react-icons/fi";
 import "./SectionOne.css";
-import mountainBackground from "../../assets/mountain-background.jpg";
-import cloudsForeground from "../../assets/clouds-foreground.jpg";
+import mountainBackground from "../../assets/images/mountain-background.jpg";
+import cloudsForeground from "../../assets/images/clouds-foreground.jpg";
 
 const SectionOne = () => {
   return (

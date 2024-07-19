@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Random Password Generator",
+      "githubLink": "https://rstrozier.github.io/Password-Generator/",
+      "year": 2022,
+      "image": "src/assets/images/random-password-generator.jpg"
+    },
+    {
+      "name": "Check Your Love App",
+      "githubLink": "https://rstrozier.github.io/love-compatibility/",
+      "year": 2023,
+      "image": "src/assets/images/love-compatibility-app.jpg"
+    },
+    {
+      "name": "A-Frame Environment",
+      "githubLink": "https://rstrozier.github.io/first-a-frame/",
+      "year": 2023,
+      "image": "src/assets/images/virtual-reality-app.jpg"
+    }
+  ]
