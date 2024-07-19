@@ -5,6 +5,7 @@
   overflow-x: hidden;
   background-color: black;
   color: azure;
+  scroll-behavior: smooth;
 }
 
 .page-section {

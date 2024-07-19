@@ -60,22 +60,6 @@
     color: rgba(243, 212, 39, 0.878);
   }
 
-  .film-container {
-    width: 100%;
-    overflow-x: hidden;
-    white-space: nowrap;
-  }
-
-  .film-image-container {
-    display: inline-block;
-    animation: scroll 180s linear infinite;
-  }
-
-  .film-image {
-    width: 300px;
-    height: auto;
-  }
-
   @keyframes scroll {
     0% {
       transform: translateX(0);
