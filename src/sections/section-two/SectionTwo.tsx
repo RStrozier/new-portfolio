@@ -1,18 +1,16 @@
-import NavBar from "../../components/nav/NavBar";
 import "./SectionTwo.css";
 
 const SectionTwo = () => {
   return (
     <>
-      <NavBar />
-      <div className="page-section section-2">
+      <div className="page-section mediumContainer section-2">
         <div className="scroll-piece-left">
           <div className="mini-spacer"></div>
           <div className="sub-title bona-nova-sc-regular">Who Am I?</div>
         </div>
 
         <div className="mini-spacer"></div>
-        <div className="mediumContainer merriweather-regular">
+        <div className="merriweather-regular">
           <div className="scroll-piece-right about-me-text">
             <p>
               My name is Rashida. 

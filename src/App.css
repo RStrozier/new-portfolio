@@ -1,5 +1,5 @@
 
-#root {
+#root, html {
   padding: 0 auto;
   margin: 0 auto;
   overflow-x: hidden;
@@ -10,6 +10,8 @@
 .page-section {
   width: 100vw;
   height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
 .spacer {
@@ -23,4 +25,9 @@
 .mediumContainer {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.largeContainer {
+max-width: 1280px;
+margin: 0 auto;
 }
