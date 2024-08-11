@@ -1,33 +1,36 @@
 import { FiChevronsDown } from "react-icons/fi";
 import "./SectionOne.css";
-import cloudsForeground2 from "../../assets/images/clouds-foreground-2.jpg";
 import NavBar from "../../components/nav/NavBar";
-import mountainBackground2 from "../../assets/images/mountain-background-2.jpg";
+import SocialAccounts from "../../components/SocialAccounts";
 
 const SectionOne = () => {
   return (
     <>
-   
-      <div className="page-section">
-      <NavBar />
-        <div className="parallax-container">
-          <header>
-            <div className="background">
-              <img src={mountainBackground2} alt="Background Image" />
+      <div className="section-one-container">
+        <NavBar />
+        <div className="largeContainer">
+          <SocialAccounts />
+          <div className="center-container">
+          <div className="hero-section-container"></div>
+          </div>
+            <div className="title">Welcome to my digital art portfolio</div>
+            <div className="sub-text  merriweather-light">Experience digit art while 
+              learning about Rashida. 
+              <br />
+              A novice developer with creativity
+              and a passion towards programming.
             </div>
-            <div className="foreground">
-              <img src={cloudsForeground2} alt="Foreground Image" />
+            <div className="button-container">
+              <button className="black-button bona-nova-sc-regular">Sign up</button>
+              <button className="white-button playwrite-cu">Projects</button>
             </div>
-            <div className="title">
-              Hello, <span>[Rashida's]</span> world
-            </div>
-          </header>
-        </div>
-        <div className="chevrons-down-container">
-          <FiChevronsDown size={60} />
+  
+
+          <div className="chevrons-down-container">
+            <FiChevronsDown size={60} />
+          </div>
         </div>
       </div>
-
     </>
   );
 };

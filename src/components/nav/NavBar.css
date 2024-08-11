@@ -1,5 +1,25 @@
 nav {
     position: absolute;
-    top: 20px;
-    right: 20px;
-}
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 11.5rem;
+    height: auto;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+  }
