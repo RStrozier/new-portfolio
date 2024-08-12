@@ -1,7 +1,6 @@
 import { FiChevronsDown } from "react-icons/fi";
 import "./SectionOne.css";
 import NavBar from "../../components/nav/NavBar";
-import SocialAccounts from "../../components/SocialAccounts";
 import blackWhiteImage from "../../assets/images/black-and-white-geometry.jpg"
 import SectionOneBtns from "./SectionOneBtns";
 
@@ -11,14 +10,12 @@ const SectionOne = () => {
       <div className="section-one-container">
         <NavBar />
         <div className="container-large">
-          <div className="container-md">
-            <SocialAccounts />
             <div className="center-container">
               <img 
               className="hero-image"
               src={blackWhiteImage}></img>
             </div>
-            <div className="title">Welcome to my digital art portfolio</div>
+            <div className="title poppins-medium">Welcome to my digital art portfolio</div>
             <div className="sub-text  merriweather-light">
               Experience digit art while learning about Rashida.
               <br />
@@ -33,7 +30,6 @@ const SectionOne = () => {
             <FiChevronsDown size={60} />
           </div>
         </div>
-      </div>
     </>
   );
 };

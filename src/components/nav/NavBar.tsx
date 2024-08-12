@@ -1,6 +1,7 @@
 import { FiAlignJustify } from 'react-icons/fi'
 import './NavBar.css'
 import logo from '../../assets/images/logo.png'
+import SocialAccounts from '../SocialAccounts'
 
 const NavBar = () => {
   return (
@@ -10,6 +11,9 @@ const NavBar = () => {
           <img 
           className='logo-image'
           src={logo}></img>
+        </div>
+        <div className="social-container">
+        <SocialAccounts />
         </div>
         <div className="menu-icon">
         <FiAlignJustify 

@@ -1,6 +1,6 @@
 .chevrons-down-container {
   position: absolute;
-  color: blueviolet;
+  color: #FFF2E1;
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
@@ -12,7 +12,8 @@
   height: 20rem;
   background-position: center;
   background-size: contain;
-  opacity: .8;
+  opacity: 0.8;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
 }
 
 .title {

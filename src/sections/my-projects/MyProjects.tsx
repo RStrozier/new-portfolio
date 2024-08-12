@@ -1,4 +1,3 @@
-import { FiChevronDown } from "react-icons/fi";
 import projectData from "../../data/projects.json";
 import "./MyProjects.css";
 
@@ -9,7 +8,7 @@ const MyProjects = () => {
         <div className="projects-title bona-nova-sc-regular">My Projects:</div>
         <div className="mini-spacer"></div>
         <div className="project-container">
-          <div className="mediumContainer">
+          <div className="center-container">
             {projectData.map((project, index) => (
               <>
                 <div className="project-item">
@@ -34,11 +33,10 @@ const MyProjects = () => {
                 </div>
               </>
             ))}
-            <div className="down-arrow-container">
-              <FiChevronDown size={60} />
-            </div>
           </div>
         </div>
+        
+        <div className="spacer"></div>
       </div>
     </>
   );
