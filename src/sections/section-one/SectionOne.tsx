@@ -11,7 +11,7 @@ const SectionOne = () => {
       <div className="section-one-container">
         <NavBar />
         <div className="container-large">
-          <div className="largeContainer">
+          <div className="container-md">
             <SocialAccounts />
             <div className="center-container">
               <img 

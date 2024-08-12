@@ -4,12 +4,12 @@ import '../assets/css/components.css'
 const SocialAccounts = () => {
   return (
     <>
-      <div className="social-account-container merriweather-light">
-        <div className="links-text merriweather-regular">My Links: </div>
-        <div className="social-icon"><FaGithub size={24} /> GitHub </div>
-        <div className="social-icon"><FaLinkedin size={24} style={{ color: '#0072b1' }}/> Linkedin </div>
-        <div className="social-icon"><FaXTwitter size={24} /> Twitter </div>
-        <div className="social-icon"><FaSpotify size={24} style={{ color: '#1DB954' }} /> Spotify </div>
+      <div className="container-md social-account-container merriweather-light">
+        <div className="links-text merriweather-bold">Links: </div>
+        <div className="social-icon merriweather-thin"><FaGithub size={24} /> GitHub </div>
+        <div className="social-icon merriweather-thin"><FaLinkedin size={24} style={{ color: '#0072b1' }}/> Linkedin </div>
+        <div className="social-icon merriweather-thin"><FaXTwitter size={24} /> Twitter </div>
+        <div className="social-icon merriweather-thin"><FaSpotify size={24} style={{ color: '#1DB954' }} /> Spotify </div>
       </div>
     </>
   );

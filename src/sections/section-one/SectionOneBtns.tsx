@@ -23,7 +23,7 @@ const SectionOneBtns = () => {
           }`}
           onClick={handleSelectColor}
         >
-          {showColorInput ? "Hide Color" : "Select Color"}
+          {showColorInput ? "Set Color" : "Select Color"}
         </button>
         <button className="white-button playwrite-cu">Projects</button>
       </div>
