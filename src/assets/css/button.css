@@ -11,6 +11,7 @@
   .black-button:hover {
     background-color: rgb(86, 85, 85);
     color: black;
+    border: 2px dotted black;
     padding: 1rem 2.25rem;
     border-radius: 0.25rem;
     cursor: pointer;
@@ -27,6 +28,7 @@
   .white-button:hover {
     background-color: rgb(86, 85, 85);
     color: white;
+    border: 2px double white;
     padding: 1rem 2.25rem;
     border-radius: 0.25rem;
     cursor: pointer;
