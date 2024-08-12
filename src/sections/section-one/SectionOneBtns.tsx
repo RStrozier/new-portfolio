@@ -30,18 +30,21 @@ const SectionOneBtns = () => {
 
       <div className="color-chooser-container">
         {showColorInput && (
+          <div 
+          className="merriweather-light"
+          style={{ backgroundColor: selectedColor, padding: "20px" }}>
+            Your selected color is:
+            {/* {selectedColor} */}
+          </div>
+        )}
+
+        {showColorInput && (
           <input
             type="color"
             value={selectedColor}
             onChange={handleColorChange}
             className="color-input"
           />
-        )}
-
-        {showColorInput && (
-          <div style={{ backgroundColor: selectedColor, padding: "20px" }}>
-            The selected color is: {selectedColor}
-          </div>
         )}
       </div>
     </div>

@@ -9,7 +9,7 @@
 }
   
   .black-button:hover {
-    background-color: white;
+    background-color: rgb(86, 85, 85);
     color: black;
     padding: 1rem 2.25rem;
     border-radius: 0.25rem;
@@ -25,11 +25,10 @@
   }
   
   .white-button:hover {
-    background-color: black;
+    background-color: rgb(86, 85, 85);
     color: white;
     padding: 1rem 2.25rem;
     border-radius: 0.25rem;
-    margin-right: 1.25rem;
     cursor: pointer;
   }
   
