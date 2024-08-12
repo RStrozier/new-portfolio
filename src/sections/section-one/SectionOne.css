@@ -1,16 +1,15 @@
 .chevrons-down-container {
   position: absolute;
   color: blueviolet;
-  bottom: 20px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   animation: pulse 2.25s infinite;
 }
 
-.hero-section-container {
-  background-image: url("../../assets/images/black-and-white-geometry.jpg");
-  width: 40rem;
-  height: 20rem;
+.hero-image {
+  width: 55rem;
+  height: 30rem;
   background-position: center;
   background-size: contain;
   opacity: .8;

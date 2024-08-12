@@ -7,6 +7,11 @@
   scroll-behavior: smooth;
 }
 
+.full-page {
+  height: 100vh;
+  margin: 0;
+}
+
 .spacer {
   padding: 3rem 0;
 }

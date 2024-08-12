@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import './assets/css/fonts.css'
 import './assets/css/button.css';
