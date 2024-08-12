@@ -5,6 +5,7 @@ const SocialAccounts = () => {
   return (
     <>
       <div className="social-account-container merriweather-light">
+        <div className="links-text merriweather-regular">My Links: </div>
         <div className="social-icon"><FaGithub size={24} /> GitHub </div>
         <div className="social-icon"><FaLinkedin size={24} style={{ color: '#0072b1' }}/> Linkedin </div>
         <div className="social-icon"><FaXTwitter size={24} /> Twitter </div>

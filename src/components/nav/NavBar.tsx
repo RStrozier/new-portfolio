@@ -13,7 +13,7 @@ const NavBar = () => {
         </div>
         <div className="menu-icon">
         <FiAlignJustify 
-        size={42}/>
+        size={48}/>
         </div>
       </nav>
     </>

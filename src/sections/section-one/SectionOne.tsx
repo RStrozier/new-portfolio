@@ -3,6 +3,7 @@ import "./SectionOne.css";
 import NavBar from "../../components/nav/NavBar";
 import SocialAccounts from "../../components/SocialAccounts";
 import blackWhiteImage from "../../assets/images/black-and-white-geometry.jpg"
+import SectionOneBtns from "./SectionOneBtns";
 
 const SectionOne = () => {
   return (
@@ -24,11 +25,8 @@ const SectionOne = () => {
               Novice developer with expert creativity.
             </div>
             <div className="button-container">
-              <button className="black-button bona-nova-sc-regular">
-                Select Color
-              </button>
-              <button className="white-button playwrite-cu">Projects</button>
-            </div>
+           <SectionOneBtns />
+           </div>
           </div>
 
           <div className="chevrons-down-container">
