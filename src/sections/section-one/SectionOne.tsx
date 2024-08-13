@@ -25,10 +25,10 @@ const SectionOne = () => {
               Novice developer with expert creativity.
             </div>
 
-            <div className="center-container">
-            <div className="text-center text-sm">Rashida is a unique developer who has the desire to merge the world 
-            <br />
-            online with the world we live in today through art and simple design.
+            <div className="center-container compress-container">
+            <div className="text-center text-sm">Rashida is a unique developer who has the 
+              desire to merge the world online with the world we live in today through art 
+              and simple design.
             </div>
             </div>
             <div className="button-container">
