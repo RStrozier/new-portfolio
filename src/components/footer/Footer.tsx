@@ -5,8 +5,7 @@ const Footer = () => {
   return (
     <>
     <div className="container-fluid footer">
-        <p>&copy; 2023 My App</p>
-
+      <p>&copy; 2023 My App</p>
         <div className="container-sm">
           <SocialAccounts />
         </div>

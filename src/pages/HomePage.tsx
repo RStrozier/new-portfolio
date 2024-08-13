@@ -1,7 +1,7 @@
 import SectionOne from "../sections/section-one/SectionOne";
-import MyProjects from "../sections/my-projects/MyProjects";
 import SectionTwo from "../sections/section-two/SectionTwo";
 import SectionThree from "../sections/section-three/SectionThree";
+import SectionFour from "../sections/section-four/SectionFour";
 
 const HomePage = () => {
   return (
@@ -9,7 +9,7 @@ const HomePage = () => {
     <SectionOne />
     <SectionTwo />
     <SectionThree />
-    <MyProjects />
+    <SectionFour />
     </>
   );
 };

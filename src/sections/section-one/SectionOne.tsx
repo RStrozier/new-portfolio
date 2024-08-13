@@ -1,4 +1,3 @@
-import { FiChevronsDown } from "react-icons/fi";
 import "./SectionOne.css";
 import NavBar from "../../components/nav/NavBar";
 import blackWhiteImage from "../../assets/images/black-and-white-geometry.jpg";
@@ -10,7 +9,7 @@ const SectionOne = () => {
       <div className="section-one-container">
         <NavBar />
 
-        <div className="container-large">
+        <div className="container-large main-container">
           <div className="center-container">
             <img className="hero-image" src={blackWhiteImage}></img>
           </div>
@@ -19,17 +18,21 @@ const SectionOne = () => {
             <div className="title poppins-medium">
               Welcome to my digital art portfolio
             </div>
-            <div className="sub-text  merriweather-light">
-              Experience digit art while learning about Rashida.
+            <div className="sub-text  merriweather-light p-1 contrast-color-2">
+              Experience digit art while viewing the journey through projects.
               <br />
               Novice developer with expert creativity.
             </div>
+
+          <div className="center-container">
+          <div className="div">Rashida is a unique developer who has the desire to merge the world
+            <br />
+            online with the world we live in today through art and simple design.
+          </div>
+          </div>
             <div className="button-container">
               <SectionOneBtns />
             </div>
-          </div>
-          <div className="chevrons-down-container">
-            <FiChevronsDown size={60} />
           </div>
         </div>
       </div>
