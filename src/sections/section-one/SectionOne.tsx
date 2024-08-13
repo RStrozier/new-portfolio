@@ -20,7 +20,7 @@ const SectionOne = () => {
               Welcome to my digital art portfolio
             </div>
             <div className="sub-text  merriweather-light p-1 contrast-color-2">
-              Experience digit art while viewing the journey through projects.
+              Experience digital art while viewing the journey through projects.
               <br />
               Novice developer with expert creativity.
             </div>

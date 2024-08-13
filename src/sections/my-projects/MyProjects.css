@@ -4,6 +4,8 @@
     text-shadow: 0 0 20px #FFF2E1, 0 0 40px #FFF2E1 0 80px #FFF2E1;
 }
 
+
+
 .project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -29,18 +31,6 @@
     margin-bottom: 1rem;
   }
 
-  .down-arrow-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .down-arrow-container:hover {
-    cursor: pointer;
-    color: rgb(83, 11, 171);
-    border: 2px solid white;
-    margin: 0 3.35rem;
-  }
 
   .project-details:hover {
     color: rgb(119, 65, 235);
