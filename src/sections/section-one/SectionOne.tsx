@@ -6,9 +6,10 @@ import SectionOneBtns from "./SectionOneBtns";
 const SectionOne = () => {
   return (
     <>
+
       <div className="section-one-container">
         <NavBar />
-
+        <div className="left-square"></div>
         <div className="container-large main-container">
           <div className="center-container">
             <img className="hero-image" src={blackWhiteImage}></img>
@@ -35,6 +36,7 @@ const SectionOne = () => {
             </div>
           </div>
         </div>
+        <div className="right-square"></div>
       </div>
     </>
   );

@@ -1,6 +1,12 @@
+.section-four {
+    position: relative;
+}
+
 .think-image {
     width: auto;
-    height: 30rem;
-    border: 1px inset #D1BB9E;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    height: 30vh;
+    position: absolute;
+    bottom: 20%; /* This will position the image in the bottom 20% of the container */
+    left: 50%; /* This will horizontally center the image */
+    transform: translateX(-50%); /* This will horizontally center the image */
 }

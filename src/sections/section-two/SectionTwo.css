@@ -1,4 +1,5 @@
 .section-two {
     background-color: #EAD8C0;
     background-image: url("../../assets/images/circle-graphic.png");
+    position: relative;
 }

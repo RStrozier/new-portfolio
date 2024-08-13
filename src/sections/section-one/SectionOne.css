@@ -8,9 +8,38 @@
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
 }
 
+.section-one-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #A79277;
+}
+
 .main-container {
-  position: absolute;
-  top: 14rem;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.left-square,
+.right-square {
+  width: 20vw;
+  height: 40vh;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 5%, rgba(255,242,225,1) 20%, rgba(234,216,192,1) 39%, rgba(167,146,119,1) 50%);
+  margin: 3px;
+}
+
+.left-square {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.right-square {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
 }
 
 .title {
@@ -23,6 +52,7 @@
   text-align: center;
   margin-top: .5rem;
 }
+
 
 .section-one-container {
   height: 95vh;
