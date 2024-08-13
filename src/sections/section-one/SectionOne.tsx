@@ -15,7 +15,7 @@ const SectionOne = () => {
             <img className="hero-image" src={blackWhiteImage}></img>
           </div>
 
-          <div className="">
+          <div className="ring-background">
             <div className="title poppins-medium">
               Welcome to my digital art portfolio
             </div>
@@ -25,12 +25,12 @@ const SectionOne = () => {
               Novice developer with expert creativity.
             </div>
 
-          <div className="center-container">
-          <div className="text-center text-sm">Rashida is a unique developer who has the desire to merge the world 
+            <div className="center-container">
+            <div className="text-center text-sm">Rashida is a unique developer who has the desire to merge the world 
             <br />
             online with the world we live in today through art and simple design.
-          </div>
-          </div>
+            </div>
+            </div>
             <div className="button-container">
               <SectionOneBtns />
             </div>
