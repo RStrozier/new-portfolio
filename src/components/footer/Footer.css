@@ -2,4 +2,5 @@
     background-color: #D1BB9E;
     flex-shrink: 0;
     height: 8rem;
+    border: 5px outset #D1BB9E solid;
 }

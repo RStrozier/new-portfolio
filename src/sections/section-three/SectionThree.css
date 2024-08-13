@@ -1,0 +1,4 @@
+.color-section {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,242,225,1) 31%, rgba(234,216,192,1) 49%, rgba(167,146,119,1) 66%);
+  }

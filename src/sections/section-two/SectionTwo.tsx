@@ -1,5 +1,5 @@
 import "./SectionTwo.css";
-import computerImage from "../../../assets/images/computer-mess.png";
+import computerImage from "../../assets/images/computer-mess.png";
 
 const SectionTwo = () => {
   return (
