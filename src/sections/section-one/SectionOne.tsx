@@ -26,7 +26,7 @@ const SectionOne = () => {
             </div>
 
           <div className="center-container">
-          <div className="div">Rashida is a unique developer who has the desire to merge the world
+          <div className="text-center">Rashida is a unique developer who has the desire to merge the world 
             <br />
             online with the world we live in today through art and simple design.
           </div>
